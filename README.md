@@ -47,19 +47,19 @@ If cube is already solved:
 
 rubiks-cube-solver/
 │
-├── backend/
-│ ├── SolverRunner.java # Runs Java Kociemba solver
-│ ├── twophase.jar # Compiled Kociemba algorithm
-│
-├── public/
-│ ├── index.html # Frontend UI
-│ ├── style.css # Styling
-│ ├── script.js # UI logic + solver trigger
-│
-├── server.js # Express server
-├── package.json # Node dependencies
-├── .gitignore # Git exclusions
-└── README.md # This file
+├── backend/  
+│ ├── SolverRunner.java # Runs Java Kociemba solver  
+│ ├── twophase.jar # Compiled Kociemba algorithm  
+│  
+├── public/  
+│ ├── index.html # Frontend UI  
+│ ├── style.css # Styling  
+│ ├── script.js # UI logic + solver trigger  
+│  
+├── server.js # Express server  
+├── package.json # Node dependencies  
+├── .gitignore # Git exclusions  
+└── README.md # This file  
 
 ---
 
