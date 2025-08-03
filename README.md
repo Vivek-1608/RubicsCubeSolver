@@ -65,27 +65,26 @@ rubiks-cube-solver/
 
 ## 🚀 Getting Started (Local Setup)
 
-### 1. Clone the repo
-git clone https://github.com/your-username/rubiks-cube-solver.git
-cd rubiks-cube-solver
-2. Install Node.js dependencies
-npm install
-3. Make sure Java is installed
-java -version
-If not installed, download from: https://www.oracle.com/java/technologies/javase-downloads.html
+### 1. Clone the repo  
+git clone https://github.com/your-username/rubiks-cube-solver.git  
+cd rubiks-cube-solver  
+2. Install Node.js dependencies  
+npm install  
+3. Make sure Java is installed  
+java -version  
+If not installed, download from: https://www.oracle.com/java/technologies/javase-downloads.html  
+4. Run the server  
+node server.js  
+Visit: http://localhost:3000  
 
-4. Run the server
-node server.js
-Visit: http://localhost:3000
+🌐 Deployment Notes  
+☁️ Render doesn’t support Java natively. To deploy:  
+Use Docker OR  
+Replace Java backend with a JavaScript-based solver (recommended)  
 
-🌐 Deployment Notes
-☁️ Render doesn’t support Java natively. To deploy:
-Use Docker OR
-Replace Java backend with a JavaScript-based solver (recommended)
+🙌 Credits  
+Kociemba’s Two-Phase Algorithm  
+Cube color logic adapted from World Cube Association  
 
-🙌 Credits
-Kociemba’s Two-Phase Algorithm
-Cube color logic adapted from World Cube Association
-
-📜 License
-MIT License
+📜 License  
+MIT License  
