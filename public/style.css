@@ -1,0 +1,86 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  text-align: center;
+  padding: 50px;
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #00ff88;
+}
+
+h1 {
+  color: #1db954;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 90%;
+  padding: 12px;
+  margin: 20px 0;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #1db954;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1ed760;
+}
+
+.solution-box {
+  margin-top: 25px;
+  font-size: 1.2rem;
+  transition: opacity 0.5s ease;
+  opacity: 0;
+}
+
+.solution-box.show {
+  opacity: 1;
+}
+.cube-net {
+  display: grid;
+  grid-template-areas:
+    ".    U    .    ."
+    "L    F    R    B"
+    ".    D    .    .";
+  gap: 10px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.face {
+  display: grid;
+  grid-template-columns: repeat(3, 30px);
+  grid-template-rows: repeat(3, 30px);
+  gap: 2px;
+}
+
+.face div {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #333;
+}
+
+.face.U { grid-area: U; }
+.face.R { grid-area: R; }
+.face.F { grid-area: F; }
+.face.D { grid-area: D; }
+.face.L { grid-area: L; }
+.face.B { grid-area: B; }

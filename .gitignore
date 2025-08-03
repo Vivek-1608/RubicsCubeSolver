@@ -1,0 +1,19 @@
+# Ignore Node modules
+node_modules/
+
+# Ignore Java class files
+*.class
+
+# Ignore compiled Java targets
+target/
+bin/
+
+# Ignore editor folders
+.vscode/
+.idea/
+
+# Ignore environment files
+.env
+
+# Ignore macOS files
+.DS_Store

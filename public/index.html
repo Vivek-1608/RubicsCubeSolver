@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rubik's Cube Solver</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Rubik’s Cube Solver</h1>
+    <input type="text" id="scramble" placeholder="Enter scramble string" />
+    <div class="buttons">
+      <button onclick="solve()">Solve</button>
+      <button onclick="reset()">Reset</button>
+    </div>
+    <p id="solution"></p>
+    <div id="cube" class="cube-visual"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
